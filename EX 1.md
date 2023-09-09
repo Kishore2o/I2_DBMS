@@ -22,37 +22,51 @@ RENAME: This is used to rename an object existing in the database.
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
-
-
+```
+ create table students(rollno int,name varchar(20),age int,address varchar(20),phoneno int);
+```
 ### OUTPUT:
+![image](https://github.com/Kishore2o/I2_DBMS/assets/118679883/341bb120-a2b2-47f4-98e9-5dcd73b03251)
+
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
-
+```
+ insert into students values(112,'Arun',20,'no40 cuddalore',2543256556);
+  insert into students values(110,'kishore',19,'no 36 neyveli',25432564764);
+```
 ### OUTPUT:
+![image](https://github.com/Kishore2o/I2_DBMS/assets/118679883/185c3728-b4cc-47df-bb97-f57cea28b9d7)
 
 
 ### 3) Drop the student table
  
 ### SQL QUERY: 
-
-
+```
+DROP TABLE students;
+```
 ### OUTPUT:
+![image](https://github.com/Kishore2o/I2_DBMS/assets/118679883/b649ea54-65ec-4318-9703-41a1b940139a)
 
 
 ### 4) Delete the student table using truncate keyword
 
+
 ### SQL QUERY: 
-
-
+```
+ TRUNCATE TABLE mystudents;
+```
 ### OUTPUT:
+![image](https://github.com/Kishore2o/I2_DBMS/assets/118679883/7831d0e2-eab5-4227-869c-a2d924c1aaaa)
 
 
 
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY: 
-
-
+```
+ ALTER TABLE student RENAME to mystudents;
+```
 ### OUTPUT:
+![image](https://github.com/Kishore2o/I2_DBMS/assets/118679883/6309c080-1768-4765-93fc-6781276efe81)
